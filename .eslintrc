@@ -1,0 +1,14 @@
+{
+  "extends": "@react-native-community",
+  "rules": {
+    "semi": ["error", "never"],
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "semi": false,
+        "endOfLine":"auto"
+      }
+    ]
+  }
+}
